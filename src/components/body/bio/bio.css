@@ -1,0 +1,17 @@
+.bio-row{
+    padding-top: 25px;
+}
+
+.first-column{
+    border-right: 1px solid #26267C;
+}
+
+.second-column {
+    border-left: 1px solid #26267C;
+}
+
+h2,h3,h5{
+    color:#26267C;
+    font-family: Georgia, serif;
+    font-weight: 700;
+}
