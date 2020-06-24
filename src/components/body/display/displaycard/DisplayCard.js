@@ -3,20 +3,19 @@ import './displaycard.css'
 import {Card,CardTitle,CardSubtitle,CardImg} from 'reactstrap'
 
 
-export default function DisaplyCard(){
+export default function DisaplyCard(props){
     return(
+
         <Card className='card'>
-            <CardTitle>PLKN</CardTitle>
-            <CardSubtitle>A new project</CardSubtitle>
+            <CardTitle>{props.title}</CardTitle>
+            <CardSubtitle>{props.subtitle}</CardSubtitle>
             <CardImg
                 top
-                src={require('../../../../resources/images/projects/plkn.jpg')}
+                src={props.img}
                 width='250px'
                 height='250px'
             />
 
         </Card>
-    )
-
-
+    );
 }

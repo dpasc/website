@@ -1,5 +1,5 @@
 import React from 'react'
-import {Switch,Route,useLocation} from 'react-router-dom'
+import {Switch,Route} from 'react-router-dom'
 import Home from '../components/body/home/Home'
 import Bio from '../components/body/bio/Bio'
 import Skills from '../components/body/skills/Skills'
@@ -9,8 +9,7 @@ import NotFound from '../components/body/notfound/NotFound'
 
 
 
-export default function Router(){
-   
+export default function Router(){ 
     return(
             <Switch>            
                 <Route path='/'  exact component={Home}/>
