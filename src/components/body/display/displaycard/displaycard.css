@@ -1,3 +1,7 @@
 .card:hover{
     border: 2px solid rgb(167, 167, 226);
 }
+
+.card-column{
+    justify-content: center;
+}

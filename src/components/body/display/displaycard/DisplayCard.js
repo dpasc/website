@@ -5,13 +5,9 @@ import {Link} from 'react-router-dom'
 
 export default function DisaplyCard(props){
    
-
-   
-
     return(
-
         <Card className='card'>
-            <Link to={`/blog/${props.id}`}>
+            <Link to={`/${props.type}/${props.id}`}>
             <CardTitle>{props.title}</CardTitle>
             <CardSubtitle>{props.subtitle}</CardSubtitle>
             <CardImg

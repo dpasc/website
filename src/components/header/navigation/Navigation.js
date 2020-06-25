@@ -1,7 +1,7 @@
 import React from 'react';
 import {Row,Col} from 'reactstrap';
-import {Nav,NavItem,NavLink} from 'reactstrap';
-import {Link} from 'react-router-dom'
+import {Nav,NavItem} from 'reactstrap';
+import {NavLink} from 'react-router-dom'
 import './navigation.css';
 
 
@@ -12,28 +12,28 @@ export default function Navigation(){
         <Col>
             <Nav className='nav-bar' tabs>
             <NavItem className='nav-item'>
-              <NavLink>
-                <Link to='/'>Home</Link>
+              <NavLink  to='/home' className='nav-link' >
+                Home
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
-              <NavLink>
-                <Link to='/bio'>Bio</Link>
+              <NavLink to='./bio'  className='nav-link'>
+                 Bio
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
-              <NavLink>
-                <Link to='/skills'>Skills</Link>
+              <NavLink to='/skills' className='nav-link'>
+               Skills
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
-              <NavLink>
-                <Link to='/projects'>Projects</Link>
+              <NavLink to='/project'  className='nav-link'>
+                Projects
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
-              <NavLink>
-                <Link to='/blog'>Blog</Link>
+              <NavLink to='/blog' className='nav-link'>
+                Blog
                 </NavLink>
             </NavItem>
             </Nav>
