@@ -4,8 +4,13 @@ import './blogpost.css'
 
 
 
+
 export default function BlogPost(props){
+    
+
+    
     return(
+
         <Row>
             <Col>
                 <h2>{props.title}</h2>
