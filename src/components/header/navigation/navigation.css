@@ -1,7 +1,20 @@
-.nav-item{
+.nav-main{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Modern Era,sans-serif;
+    
 
+}
+
+.nav-main:link{
+    text-decoration: underline solid 3px #6A42ED;
+    color: #6A42ED;
 }
 
 .nav-bar{
     justify-content: center;
+}
+
+.link-nav{
+    color:  #6A42ED;
 }

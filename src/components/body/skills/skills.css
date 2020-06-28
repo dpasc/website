@@ -2,3 +2,53 @@
     padding-top: 25px;
 }
 
+.skill-col{
+    
+    border-radius: 25px ;
+    padding: 20px;
+}
+
+.skill-col:hover{
+    background-color: rgba(194, 235, 248, 0.116);
+}
+
+.graphic-img{
+    height: 250px;
+    padding-top: 25px;
+}
+
+#second-row-img{
+    height: 500px;
+}
+
+
+
+.content-card{
+    border:dashed rgb(112, 35, 112) 2px;
+}
+
+.content-card:hover{
+    background-color: rgba(251, 161, 251, 0.068);
+}
+
+
+h2{
+    font-family: Modern Era,sans-serif;
+    font-weight: 700;
+    text-decoration: underline 3px;
+    padding-top: 20px;
+}
+
+h3{
+    padding-top:20px;
+}
+
+ul{
+    list-style: none;
+    list-style-position: outside    ;
+}
+
+p{
+    padding:10px
+}
+

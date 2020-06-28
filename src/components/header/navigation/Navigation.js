@@ -9,8 +9,8 @@ export default function Navigation(){
 
     return(
       <Row>
-        <Col>
-            <Nav className='nav-bar' tabs>
+        <Col className='nav-main'>
+            <Nav className='nav-bar navbar-light' tabs>
             <NavItem className='nav-item'>
               <NavLink  to='/home' className='nav-link' >
                 Home
@@ -27,7 +27,7 @@ export default function Navigation(){
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
-              <NavLink to='/project'  className='nav-link'>
+              <NavLink className='link-nav' to='/project'  className='nav-link'>
                 Projects
               </NavLink>
             </NavItem>

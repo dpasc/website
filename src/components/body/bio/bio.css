@@ -1,17 +1,48 @@
+.bio-main{
+  padding-top: 25px;
+}
+
+.bio-heading{
+    font-family: Modern Era,sans-serif;
+    font-size: 35px;
+    text-decoration:underline;
+    font-weight: 700;
+    
+}
+
+.bio-top-row{
+    padding-top: 25px;;
+}
 .bio-row{
     padding-top: 45px;
 }
 
 .first-column{
-    border-right: 1px solid #26267C;
+    border-right: 3px dotted #26267C;
 }
-
+.last-column{
+    margin-bottom:300px;
+}
 .second-column {
     border-left: 1px solid #26267C;
 }
 
 h2,h3,h5{
     color:#26267C;
-    font-family: Georgia, serif;
+    font-family: Modern Era,sans-serif;
     font-weight: 700;
+}
+
+.graphic{
+    height:200px;
+}
+
+#graphic-story{
+    height: 200px;
+    padding-top:25px;
+}
+
+
+#graphic-fun{
+ height: 200px;
 }

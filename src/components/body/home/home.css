@@ -1,13 +1,39 @@
-main{
-    padding:5px
+.main-row{
+    padding-top: 35px;
+    color: #686868
+}
+
+.hello{
+    font-size: 150px;
+    font-weight: 700;
+    border-right:1px #999999 solid;
+    font-family: Modern Era,sans-serif;
 }
 
 
-.main-row{
-    border:2px solid black;
+.hello-letters{
+    padding:0 auto;
+    margin: 0 auto;
+    width:50px;
+    height: 120px;
+    padding-right: 150px
+
+}
+
+#he{
+    
+}
+
+#ll{
+ 
+}
+
+#o{
+ 
 }
 
 .placeholderimage{
-    width:75%;
-    height:75;
+    padding-top:25px;
+    height:650px;
+
 }

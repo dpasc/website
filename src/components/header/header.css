@@ -1,13 +1,14 @@
 .damianpascale{
-    font-family: Georgia, serif;
-    color: rgb(38, 38, 124);
+    font-family: Modern Era,sans-serif;
+    text-decoration: underline solid 7px;
+    color:  #6437ac;
     padding:20px;
     font-size: 60px;
-    font-weight: 550px;
+    font-weight: 600;
 
 }
 
 .header-row{
-    background-color: rgba(220, 215, 250, 0.452);
+    
 }
 
