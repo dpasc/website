@@ -12,8 +12,17 @@ export default function Blog(){
     return(
         <div className='blog-main'>
             <Row>
-                <Col>
-                    <h2>Blog</h2>
+                <Col md='4'>
+                    <h2 className='blog-sub-heading'>Blog</h2>
+                </Col>
+                <Col md='4'>
+                    <img
+                        className='blog-graphic-img'
+                        src={require('../../../resources/images/blog/undraw_content_team_3epn.svg')}
+                        alt=''
+                    />
+                </Col>
+                <Col md='4'>
                 </Col>
             </Row>
             <Display

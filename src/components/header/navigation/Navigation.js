@@ -27,7 +27,7 @@ export default function Navigation(){
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
-              <NavLink className='link-nav' to='/project'  className='nav-link'>
+              <NavLink className='nav-link' to='/project'>
                 Projects
               </NavLink>
             </NavItem>

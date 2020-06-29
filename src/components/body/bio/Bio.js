@@ -14,32 +14,29 @@ export default function Bio(){
             <Col className='first-column' md='6'>
             <img
                 id='graphic-story' 
-                className='graphic'
+                className='bio-graphic'
                 src={require('../../../resources/images/bio/story.svg')} 
                 alt='none'
              />
-
             </Col>
-            <Col md="6">
+            <Col className='background-color' md="6">
                 <h2>My Story</h2>
-                <p>
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
-                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi 
-                    architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit 
-                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
-                    voluptatem sequi nesciunt. 
+                <p className='bio-text'>
+                    After studying business at university I began a career as a business administration manager at a landscape architecture firm in Sydney. One day I tasked with finding the organisation a system that would allow us to calculate our labour costs on various projects. After looking I found many solutions however, most were quite costly; I took to learning how to program an excel spreadsheet with the specifications requested by the directors. I have always been passionate about solving problems and quite tech savvy. After this, I began to spend weekends reading “Learn Python The Hard Way, by Zed Shaw. I soon found that this was something that I was passionate about and decided to leave my MBA course and career in business management to pursue a career as a software developer.
                 </p>
             </Col>
         </Row>
         <Row className='bio-row'>
             <Col className='first-column' md='6'>
-            <h3>Mission</h3>
-                <p>Ut enim ad minima veniam, quis nostrum 
-                exercitationem ullam corporis suscipit laboriosam</p>
+            <h2>Mission</h2>
+                <p className='mission-statement  background-color'>
+                    Use technology in ways that bring <b>good to society.
+                    </b> 
+                </p>
             </Col>
             <Col>
             <img 
-                className='graphic'
+                className='bio-graphic'
                 src={require('../../../resources/images/bio/mission.svg')} 
                 alt='none'
              />
@@ -48,38 +45,66 @@ export default function Bio(){
         <Row className='bio-row'>
             <Col className='first-column' md='6'>
             <img 
-                className='graphic'
+                className='bio-graphic'
+                id='graphic-education'
                 src={require('../../../resources/images/bio/education.svg')} 
                 alt='none'
              />
             </Col>
-            <Col>
+            <Col className='background-color'md='6'>
                 <h2>Eduction</h2>
                 <p>
-                Ut enim ad minima veniam, quis nostrum 
-                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
-                consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam 
-                nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                    <b>TAFE Sydney</b>
+                    <br/>
+                    Diploma of Software
+                    Development
+                    <br/>
+                    2019
+                    <hr/>
+                    <b>TAFE Sydney</b>
+                    <br/>
+                    Certificate IV Computer
+                    Programming
+                    <br/>
+                    2019
+                    <hr/>
+                    <b>Cisco Academy</b>
+                    <br/>
+                    Introduction to IoT
+                    <br/>
+                    2019
+                    <hr/>
+                    <b>Charles Sturt University</b>
+                    <br/>
+                    Bachelor of Business (Human
+                    Resources)
+                    <br/>
+                    2017
+                    <hr/>
+                    <b>TAFE Northern Sydney Institute</b>
+                    <br/>
+                    Advanced Diploma Leadership
+                    and Management
+                    <br/>
+                    2016
                 </p>
             </Col>
         </Row>
         <Row className='bio-row'>
-            <Col className='first-column' md='6'>
+            <Col className='first-column  background-color' md='6'>
                 <h2>
                 When Im Not Coding
                 </h2>
-                <p>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, 
-                consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et 
-                dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
-                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
-                consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam 
-                nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                <p className='bio-text'>
+                    Throughout the week I wake before dawn to exercising and studying mathematics for an hour. On weekends I like to swim and hike in national parks. My favourite thing to do is spend time at cafés reading works of philosophy or having long conversations with friends.
+                    <br/>
+                     I have also recently started a boardgames group; We meet on a weekly basis and enjoy playing unique boardgames such as Unfair, Betrayal at House On The Hill, Codenames and Risk.
+
                 </p>
             </Col>
             <Col>
             <img 
-                className='graphic'
+                className='bio-graphic'
                 id='graphic-fun'
                 src={require('../../../resources/images/bio/fun.svg')} 
                 alt='none'
@@ -89,13 +114,13 @@ export default function Bio(){
         <Row className='bio-row'>
             <Col>
                 <img 
-                    className='graphic'
+                    className='bio-graphic'
                     id='graphic-contact'
                     src={require('../../../resources/images/bio/contact.svg')} 
                     alt='none'
                 />
                 </Col>
-            <Col className='last-column'>
+            <Col md="6" className='last-column  background-color'>
                 <h2>Contact</h2>
                 <h5>GitHub</h5>
                 <p>github.com/dpasc</p>

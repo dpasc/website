@@ -12,11 +12,13 @@ export default function Project(props){
 
     return(
         <Row className='main-project'>
-             <Col>
+            <Col md='3'> </Col>
+             <Col md='6'>
             <h2>{props.title}</h2>
                 <h3>{props.subtitle}</h3>     
                 <div dangerouslySetInnerHTML={{ __html: htmlDecoder(props.content) }} />  
             </Col> 
+            <Col md='3'></Col>
         </Row>
     )
 }

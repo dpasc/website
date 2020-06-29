@@ -1,3 +1,14 @@
 .blog-main{
     padding: 25px;
 }
+
+.blog-graphic-img{
+    padding-top:20px;
+    height:350px;
+}
+
+.blog-sub-heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+

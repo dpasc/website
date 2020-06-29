@@ -10,11 +10,23 @@
     
 }
 
+.background-color{
+    background-color: rgba(203, 176, 216, 0.15);
+}
+
+.bio-text{
+    font-size: 18px;
+}
+
 .bio-top-row{
     padding-top: 25px;;
 }
 .bio-row{
     padding-top: 45px;
+}
+
+.mission-statement{
+    font-size: 25px;
 }
 
 .first-column{
@@ -33,16 +45,21 @@ h2,h3,h5{
     font-weight: 700;
 }
 
-.graphic{
+.bio-graphic{
     height:200px;
 }
 
 #graphic-story{
-    height: 200px;
+    height: 350px;
     padding-top:25px;
 }
 
 
 #graphic-fun{
  height: 200px;
+}
+
+#graphic-education{
+    height: 350px;
+    padding-top: 50px;
 }

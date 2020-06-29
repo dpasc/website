@@ -12,10 +12,25 @@ export default function Projects(){
     return(
         <div className='main-projects'>
             <Row>
-                <Col>
-                    <h2>Projects</h2>
+                <Col md='4'>
+                    <h2
+                        className="project-sub-heading"
+                    >
+                        Projects
+                    </h2>
                 </Col>
+                <Col md='4'>
+                    <img
+                        className='project-graphic-img'
+                        src={require('../../../resources/images/projects/undraw_to_the_moon_v1mv.svg')}
+                        alt=''
+                    />
+                </Col>
+                <Col md=''>
+                </Col>
+
             </Row>
+            <hr/>
             <Display
                 data={collection}
             />

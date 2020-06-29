@@ -18,3 +18,20 @@
 .link-nav{
     color:  #6A42ED;
 }
+
+a{
+    color:  #6A42ED;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: #6437ac;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color:#361836;
+    text-decoration: underline 3px;
+}
+
+ul.nav li.active a {
+
+}
