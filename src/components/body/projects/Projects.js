@@ -21,7 +21,7 @@ export default function Projects(){
                 </Col>
                 <Col md='4'>
                     <img
-                        className='project-graphic-img'
+                        className='project-graphic-img img-fluid'
                         src={require('../../../resources/images/projects/undraw_to_the_moon_v1mv.svg')}
                         alt=''
                     />

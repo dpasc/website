@@ -16,7 +16,10 @@ export default function Home(){
                     </main>
                 </Col>
                 <Col md="6">
-                <img className='placeholderimage' src={require('../../../resources/images/home/chill.svg')} alt='none'/>
+                    <img 
+                        className='homeimage img-fluid' 
+                        src={require('../../../resources/images/home/chill.svg')} 
+                        alt='a nice pic'/>
             </Col>
             </Row>
     );

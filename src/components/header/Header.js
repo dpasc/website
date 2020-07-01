@@ -10,7 +10,7 @@ function Header(){
             <Row className='header-row'>
                 <Col>
                     <header className='damianpascale'>
-                        <p>Damian Pascale</p>
+                        <p>damian pascale</p>
                     </header>
                 </Col>
             </Row>

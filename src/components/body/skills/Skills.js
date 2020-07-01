@@ -36,12 +36,12 @@ export default function Skills(){
                             Sound understanding of C# language, .NET Framework and .Net Core using object orientated programming principles
                         </p>
                         <p>
-                            .Net development using; ASP.NET MVC, Entity Framework Core, Web API’s and ASP.NET Identity Front-End web dev
+                            .Net development using; ASP.NET MVC, Entity Framework Core, Web API’s and ASP.NET Identity
                         </p>
                         <p>
                             Scripting using Python, BS4, Pandas and SqlAlchemy
                         </p>
-                        <p>
+                        <p> 
                             Basic understanding of C language
                         </p>                       
                     </div>

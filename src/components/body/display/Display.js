@@ -1,11 +1,11 @@
 import React from 'react'
 import './displaycard.css'
-import {Row,Col,CardColumns,CardDeck} from 'reactstrap'
+import {Row,Col} from 'reactstrap'
 import DisplayCard from './displaycard/DisplayCard'
 
 
 export default function Display(props){
-    //Fix this 
+
    const collection = props.data.map((card) => {
       return(  
         <Col md='4'>

@@ -17,7 +17,7 @@ export default function Blog(){
                 </Col>
                 <Col md='4'>
                     <img
-                        className='blog-graphic-img'
+                        className='blog-graphic-img img-fluid'
                         src={require('../../../resources/images/blog/undraw_content_team_3epn.svg')}
                         alt=''
                     />
@@ -25,6 +25,7 @@ export default function Blog(){
                 <Col md='4'>
                 </Col>
             </Row>
+            <hr/>
             <Display
                 data={collection}
             />

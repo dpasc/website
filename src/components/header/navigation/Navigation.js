@@ -13,27 +13,27 @@ export default function Navigation(){
             <Nav className='nav-bar navbar-light' tabs>
             <NavItem className='nav-item'>
               <NavLink  to='/home' className='nav-link' >
-                Home
+                home
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
               <NavLink to='./bio'  className='nav-link'>
-                 Bio
+                 bio
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
               <NavLink to='/skills' className='nav-link'>
-               Skills
+               skills
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
               <NavLink className='nav-link' to='/project'>
-                Projects
+                projects
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
               <NavLink to='/blog' className='nav-link'>
-                Blog
+                blog
                 </NavLink>
             </NavItem>
             </Nav>

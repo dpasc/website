@@ -14,7 +14,7 @@ export default function Bio(){
             <Col className='first-column' md='6'>
             <img
                 id='graphic-story' 
-                className='bio-graphic'
+                className='bio-graphic img-fluid'
                 src={require('../../../resources/images/bio/story.svg')} 
                 alt='none'
              />
@@ -36,7 +36,7 @@ export default function Bio(){
             </Col>
             <Col>
             <img 
-                className='bio-graphic'
+                className='bio-graphic img-fluid'
                 src={require('../../../resources/images/bio/mission.svg')} 
                 alt='none'
              />
@@ -45,7 +45,7 @@ export default function Bio(){
         <Row className='bio-row'>
             <Col className='first-column' md='6'>
             <img 
-                className='bio-graphic'
+                className='bio-graphic img-fluid'
                 id='graphic-education'
                 src={require('../../../resources/images/bio/education.svg')} 
                 alt='none'
