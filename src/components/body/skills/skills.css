@@ -35,7 +35,6 @@
 h2{
     font-family: Modern Era,sans-serif;
     font-weight: 700;
-    text-decoration: underline 3px;
     padding-top: 20px;
 }
 
@@ -48,7 +47,5 @@ ul{
     list-style-position: outside    ;
 }
 
-p{
-    padding:10px
-}
+
 

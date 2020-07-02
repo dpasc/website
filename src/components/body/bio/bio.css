@@ -5,8 +5,7 @@
 .bio-heading{
     font-family: Modern Era,sans-serif;
     font-size: 35px;
-    text-decoration:underline;
-    font-weight: 700;
+    font-weight: 500;
     
 }
 
@@ -49,11 +48,16 @@ h2,h3,h5{
     height:200px;
 }
 
+
+#text-mission{
+    padding-top: 170px;
+}
+
+
 #graphic-story{
     height: 350px;
     padding-top:25px;
 }
-
 
 #graphic-fun{
  height: 200px;

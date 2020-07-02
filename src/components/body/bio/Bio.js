@@ -7,7 +7,7 @@ export default function Bio(){
         <div className='bio-main'>
         <Row classID='bio-top-row'>
             <Col>
-                <h2 className='bio-heading'>Bio</h2>
+                <h2 className='bio-heading'>bio</h2>
             </Col>
         </Row>
         <Row className='bio-row'>
@@ -20,7 +20,7 @@ export default function Bio(){
              />
             </Col>
             <Col className='background-color' md="6">
-                <h2>My Story</h2>
+                <h2>my story</h2>
                 <p className='bio-text'>
                     After studying business at university I began a career as a business administration manager at a landscape architecture firm in Sydney. One day I tasked with finding the organisation a system that would allow us to calculate our labour costs on various projects. After looking I found many solutions however, most were quite costly; I took to learning how to program an excel spreadsheet with the specifications requested by the directors. I have always been passionate about solving problems and quite tech savvy. After this, I began to spend weekends reading “Learn Python The Hard Way, by Zed Shaw. I soon found that this was something that I was passionate about and decided to leave my MBA course and career in business management to pursue a career as a software developer.
                 </p>
@@ -28,14 +28,17 @@ export default function Bio(){
         </Row>
         <Row className='bio-row'>
             <Col className='first-column' md='6'>
-            <h2>Mission</h2>
-                <p className='mission-statement  background-color'>
-                    Use technology in ways that bring <b>good to society.
+            <div id='text-mission'>
+                <h2>mission</h2>
+                    <p className='mission-statement  background-color'>
+                        Use technology in ways that bring <b>good to society.
                     </b> 
-                </p>
+                    </p>
+            </div>
             </Col>
             <Col>
             <img 
+                id='graphic-mission'
                 className='bio-graphic img-fluid'
                 src={require('../../../resources/images/bio/mission.svg')} 
                 alt='none'
@@ -52,7 +55,7 @@ export default function Bio(){
              />
             </Col>
             <Col className='background-color'md='6'>
-                <h2>Eduction</h2>
+                <h2>eduction</h2>
                 <p>
                     <b>TAFE Sydney</b>
                     <br/>
@@ -93,7 +96,7 @@ export default function Bio(){
         <Row className='bio-row'>
             <Col className='first-column  background-color' md='6'>
                 <h2>
-                When Im Not Coding
+                when i'm not coding
                 </h2>
                 <p className='bio-text'>
                     Throughout the week I wake before dawn to exercising and studying mathematics for an hour. On weekends I like to swim and hike in national parks. My favourite thing to do is spend time at cafés reading works of philosophy or having long conversations with friends.
@@ -121,7 +124,7 @@ export default function Bio(){
                 />
                 </Col>
             <Col md="6" className='last-column  background-color'>
-                <h2>Contact</h2>
+                <h2>contact</h2>
                 <h5>GitHub</h5>
                 <p>github.com/dpasc</p>
                 <h5>Email</h5>
