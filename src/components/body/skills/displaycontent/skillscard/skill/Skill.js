@@ -8,12 +8,7 @@ export default function Skill(props){
             <td className="skill-name">
             <p
                 className="skill-name"
-            >{props.name}</p>
-            </td>
-            <td className="skill-progress">
-                <Progress
-                    value={props.rating}
-                />
+            >{props.content}</p>
             </td>
         </tr>
     );

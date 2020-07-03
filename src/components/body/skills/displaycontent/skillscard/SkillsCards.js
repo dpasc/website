@@ -5,38 +5,22 @@ import {Table} from 'reactstrap';
 
 
 
-export default function SkillsCards(){
+export default function SkillsCards(props){
 
-    const test = [
-        {
-            "id":1,
-            "name":"C#",
-         "rating":90},
-        {
-            "id":2,
-            "name":"JavaScript",
-         "rating":75},
-        {
-            "id":3,
-            "name":"Python",
-         "rating":45},
-        {
-            "id":4,
-            "name":"C",
-         "rating":15},
-        {
-            "id":5,
-            "name":"Java",
-         "rating":25},
-    ]
+    const collection = props.content;
+
+
+
 
     const SkillCollection = (skills) =>{
-        return skills.map( skill => (
-                <Skill
-                    name={skill.name}
-                    rating={skill.rating}
-                />
-        ));
+        let rendered = [];
+        for(var i = 0; i< skills.length;i++)
+        {
+            rendered.push(<Skill 
+                content={skills[i]}
+            />);
+        }
+        return rendered;
     };
 
 
@@ -48,12 +32,11 @@ export default function SkillsCards(){
         >
             <thead>
                 <tr>
-                    <th>Skill</th>
-                    <th>Level</th>
+                    <th>{props.heading}</th>
                 </tr>
             </thead>
             <tbody className='skill-table'>
-                {SkillCollection(test)}
+                {SkillCollection(collection)}
             </tbody>
         </Table>
     );

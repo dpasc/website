@@ -8,11 +8,13 @@ import SkillCard from './skillscard/SkillsCards'
 export default function DisplayContent(props){
 
 
-    
     return(
         <Col md='8'>
             <main className='main-displaycontent'>
-                <SkillCard/>
+                <SkillCard
+                    heading={props.heading}
+                    content={props.content}
+                />
             </main>
         </Col>
     );
