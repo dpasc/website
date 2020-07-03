@@ -3,7 +3,7 @@ import './skills.css';
 import {Row,Col} from 'reactstrap';
 import DisplayContent from '../skills/displaycontent/DisplayContent.js'
 import ButtonsPanel from './buttonpanel/ButtonPanel'
-import skill from '../../../resources/skillresources/skillcontent'
+import skill from '../../../resources/skillresources/skillcontent.js'
 
 
 
@@ -12,9 +12,7 @@ export default function Skills(){
     const skillSet = skill;
     const [currentSkill,setCurrentSkill] = useState(5);
   
-    const handleSkillUpdate = (skill) =>{
-        setCurrentSkill(skill);
-    }
+
 
 
     return(
@@ -34,6 +32,7 @@ export default function Skills(){
             </Col>
             <DisplayContent
                 content={skillSet[currentSkill].content}
+                heading={skillSet[currentSkill].type}
             
             />
         </Row>

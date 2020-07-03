@@ -10,6 +10,7 @@ import BlogPost from '../components/body/blog/blogpost/BlogPost'
 import posts from '../resources/blogpostitems/blogpostitems.js'
 import projects from '../resources/projectdescriptions/projectdescriptions'
 import Project from '../components/body/projects/project/Project'
+import Test from '../components/body/test/Test'
 
 
 
@@ -37,6 +38,7 @@ export default function Router(){
                     />)}}
                     />
                 <Route path='/project' component={Projects}/>
+                <Route path='/test' component={Test}/>
                 <Route
                     path='/blog/:id'
                     render={
