@@ -1,0 +1,12 @@
+main-skillcard{
+    border: solid 2px black;
+}
+
+.main-skillscard * {
+    padding: 15px;
+}
+
+.skill-table{
+    padding:20px;
+    padding-top:50px;
+}

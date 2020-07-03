@@ -1,6 +1,7 @@
 import React from 'react';
 import './displaycontent.css'
 import {Col} from 'reactstrap'
+import SkillCard from './skillscard/SkillsCards'
 
 
 
@@ -11,7 +12,7 @@ export default function DisplayContent(props){
     return(
         <Col md='8'>
             <main className='main-displaycontent'>
-                <div dangerouslySetInnerHTML={{__html: props.content}}/>
+                <SkillCard/>
             </main>
         </Col>
     );
