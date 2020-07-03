@@ -1,14 +1,15 @@
-import React from 'react'
+import React,{Fragment} from 'react'
 import './displaycard.css'
-import {Row,Col} from 'reactstrap'
+import {Col} from 'reactstrap'
 import DisplayCard from './displaycard/DisplayCard'
 
 
 export default function Display(props){
 
    const collection = props.data.map((card) => {
-      return(  
-        <Col md='4'>
+      return( 
+        <Col md="4" className="card-col"
+        > 
         <DisplayCard
             id={card.id}
             key={card.id}
@@ -17,12 +18,13 @@ export default function Display(props){
             img={card.img}
             type={card.type}
         />
-        </Col>)
+        </Col>
+        );
     });
 
     return(
-        <Row className='display-row'>
-            {collection}  
-        </Row>
+        <Fragment className="">
+            {collection} 
+        </Fragment>
     );
 }

@@ -10,31 +10,21 @@ export default function Projects(){
     const collection = projects;
 
     return(
-        <div className='main-projects'>
-            <Row>
+            <Row className='main-projects'>
                 <Col md='4'>
-                    <h2
-                        className="project-sub-heading"
-                    >
-                        Projects
-                    </h2>
+                        <img
+                            className='project-graphic-img img-fluid'
+                            src={require('../../../resources/images/projects/undraw_to_the_moon_v1mv.svg')}
+                            alt=''
+                        />
+                        <hr/>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        </p>
                 </Col>
-                <Col md='4'>
-                    <img
-                        className='project-graphic-img img-fluid'
-                        src={require('../../../resources/images/projects/undraw_to_the_moon_v1mv.svg')}
-                        alt=''
-                    />
-                </Col>
-                <Col md=''>
-                </Col>
-
-            </Row>
-            <hr/>
-            <Display
+                <Display
                 data={collection}
-            />
-        </div>
-    )
-
+                />
+            </Row>
+    );
 }
