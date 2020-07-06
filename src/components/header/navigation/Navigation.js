@@ -32,9 +32,9 @@ export default function Navigation(){
               </NavLink>
             </NavItem>
             <NavItem className='nav-item'>
-              <NavLink to='/blog' className='nav-link'>
+              {/* <NavLink to='/blog' className='nav-link'>
                 blog
-                </NavLink>
+                </NavLink> */}
             </NavItem>
             </Nav>
           </Col>

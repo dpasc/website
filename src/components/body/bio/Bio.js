@@ -128,7 +128,8 @@ export default function Bio(){
                 <h5>GitHub</h5>
                 <p>github.com/dpasc</p>
                 <h5>Email</h5>
-                <p>damian@mail.com</p>
+                <a href="mailto:damian@dpasc.dev">damian@dpasc.dev</a>
+                <br/>
             </Col>
         </Row>
         </div>

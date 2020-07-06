@@ -8,7 +8,9 @@ function Header(){
     return(
         <div>
             <Row className='header-row'>
-                <Col>
+
+                <Col md="8"></Col>
+                <Col md="4">
                     <header className='damianpascale'>
                         <p>damian pascale</p>
                     </header>

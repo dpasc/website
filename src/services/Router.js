@@ -39,7 +39,7 @@ export default function Router(){
                     />
                 <Route path='/project' component={Projects}/>
                 <Route path='/test' component={Test}/>
-                <Route
+                {/* <Route
                     path='/blog/:id'
                     render={
                         ({match}) => {
@@ -50,7 +50,7 @@ export default function Router(){
                        subtitle={selectedPost.subtitle}
                        content={selectedPost.content}
                     />)}}
-                    />
+                    /> */}
                 <Route path='/blog' component={Blog}/>
                 <Route  component={NotFound}/>
 
