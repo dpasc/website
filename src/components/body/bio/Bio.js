@@ -22,7 +22,7 @@ export default function Bio(){
             <Col className='background-color' md="6">
                 <h2>my story</h2>
                 <p className='bio-text'>
-                    After studying business at university I began a career as a business administration manager at a landscape architecture firm in Sydney. One day I tasked with finding the organisation a system that would allow us to calculate our labour costs on various projects. After looking I found many solutions however, most were quite costly; I took to learning how to program an excel spreadsheet with the specifications requested by the directors. I have always been passionate about solving problems and quite tech savvy. After this, I began to spend weekends reading “Learn Python The Hard Way, by Zed Shaw. I soon found that this was something that I was passionate about and decided to leave my MBA course and career in business management to pursue a career as a software developer.
+                    After studying business at university I began a career as a business administration manager at a landscape architecture firm in Sydney. One day, I tasked with finding the organisation a system that would allow us to calculate our labour costs on various projects. After looking I found many solutions however, most were quite costly. I took to learning how to program an excel spreadsheet with the specifications requested by the directors. I have always been passionate about solving problems and quite tech savvy. After this, I began to spend weekends reading “Learn Python The Hard Way, by Zed Shaw. I soon found that this was something that I was passionate about and decided to leave my MBA course and career in business management to pursue a career as a software developer.
                 </p>
             </Col>
         </Row>
@@ -31,7 +31,7 @@ export default function Bio(){
             <div id='text-mission'>
                 <h2>mission</h2>
                     <p className='mission-statement  background-color'>
-                        Use technology in ways that bring <b>good to society.
+                        Develop technology that brings <b>good to society.
                     </b> 
                     </p>
             </div>
@@ -99,7 +99,8 @@ export default function Bio(){
                 when i'm not coding
                 </h2>
                 <p className='bio-text'>
-                    Throughout the week I wake before dawn to exercising and studying mathematics for an hour. On weekends I like to swim and hike in national parks. My favourite thing to do is spend time at cafés reading works of philosophy or having long conversations with friends.
+                    Throughout the week I wake before dawn to exercise and study mathematics. On weekends I like to swim and hike in national parks. My favourite thing to do is spend time at cafés reading works of philosophy or have conversations with friends.
+                    <br/>
                     <br/>
                      I have also recently started a boardgames group; We meet on a weekly basis and enjoy playing unique boardgames such as Unfair, Betrayal at House On The Hill, Codenames and Risk.
 
@@ -126,7 +127,7 @@ export default function Bio(){
             <Col md="6" className='last-column  background-color'>
                 <h2>contact</h2>
                 <h5>GitHub</h5>
-                <p>github.com/dpasc</p>
+                <a href="https://github.com/dpasc">github.com/dpasc</a>
                 <h5>Email</h5>
                 <a href="mailto:damian@dpasc.dev">damian@dpasc.dev</a>
                 <br/>

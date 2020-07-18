@@ -1,4 +1,44 @@
 .main-project{
     padding-top:25px;
+
+    border:solid 2px rgba(69, 62, 75, 0.753);
+    border-radius: 5px;
 }
 
+.test-img{
+    width:250px;
+    height:200px;
+}
+
+#gt-home{
+    width:650px;
+}
+
+#gt-db-chart{
+    width:650px;
+}
+
+#groovy-home{
+    width:650px;
+}
+
+
+@media (max-width:650px){
+    #plkn-aws-chart{
+        width:240px;
+    }
+
+    #gt-home{
+        width:240px;
+    }
+
+    #gt-db-chart{
+        width:240px
+    }
+    #gt-logo{
+        width:240px
+    }
+    #groovy-home{
+        width:240px
+    }
+}

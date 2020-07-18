@@ -11,7 +11,7 @@ export default function Home(){
                         <div className='hello'>
                             <p className='hello-letters' id='he'>HE</p>
                             <p className='hello-letters' id='ll'>LL</p>
-                            <p className='hello-letters' id='o'>O.</p>
+                            <p className='hello-letters' id='o'>O:)</p>
                         </div>
                     </main>
                 </Col>
